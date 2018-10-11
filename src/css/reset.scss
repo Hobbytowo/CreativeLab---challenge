@@ -1,10 +1,32 @@
+// "realistnarrow-light" - primary font
+@font-face { // by MartinPlus Fonts
+  font-family: 'realistnarrow-semilight';
+  src: url('webfont/realistnarrow-semilight.eot'); // IE9 Compat Modes
+  src: url('webfont/realistnarrow-semilight.woff2') format('woff2'), // Super Modern Browsers
+       url('webfont/realistnarrow-semilight.woff') format('woff'), // Pretty Modern Browsers
+       url('webfont/realistnarrow-semilight.ttf')  format('truetype'), // Safari, Android, iOS
+       url('webfont/realistnarrow-semilight.svg') format('svg'); // Legacy iOS
+}
+
+// "realistnarrow-regular" - titles font
+@font-face { // by MartinPlus Fonts
+  font-family: 'realistnarrow';
+  src: url('webfont/realistnarrow-light.eot'); // IE9 Compat Modes
+  src: url('webfont/realistnarrow-light.woff2') format('woff2'), // Super Modern Browsers
+       url('webfont/realistnarrow-light.woff') format('woff'), // Pretty Modern Browsers
+       url('webfont/realistnarrow-light.ttf')  format('truetype'), // Safari, Android, iOS
+       url('webfont/realistnarrow-light.svg') format('svg'); // Legacy iOS
+}
+
 * {
   margin: 0;
   padding: 0;
   border: 0;
   box-sizing: border-box;
+
+  font: 400 20px / 1.3em 'realistnarrow-semilight', Fallback, sans-serif;
 }
 
-li{
+li {
   list-style: none;
 }
