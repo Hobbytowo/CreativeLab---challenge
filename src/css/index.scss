@@ -3,6 +3,7 @@
 body {
   background-color: #f3f3f3;
   color: #8d8d8d;
+  overflow-x: hidden;
 }
 
 // header
@@ -18,21 +19,21 @@ body {
     url("static/visualizationXL.png") 600px 90px no-repeat,
     #c7d2da linear-gradient(-55deg, #aabdd1 0%, #c276ff 82%, #c276ff 100%);
 
-  &__content{
+  &__content {
     margin-top: 215px;
     margin-left: 103px;
     max-width: 385px;
   }
 
-  &__title{
+  &__title {
     font: 300 67px / 1em 'realistnarrow';
   }
 
-  &__par{
+  &__par {
     margin: 25px 0;
   }
 
-  &__btn{
+  &__btn {
     font-size: 19px;
     padding: 18px 45px;
     background-color: #fff;
@@ -42,7 +43,7 @@ body {
     transition: 0.2s all;
     will-change: background;
 
-    &:hover{
+    &:hover {
       background: rgba(19, 229, 212, 1);
     }
   }
@@ -74,10 +75,99 @@ body {
     transition: 0.2s all;
     will-change: background;
 
-    &:hover{
+    &:hover {
       background: #c374ff;
     }
   }
 }
 
 // e/o header
+
+// main section
+
+.main {
+  margin: 43px;
+  position: relative;
+  background-color: #fff;
+
+  &__leftCol {
+    max-width: 66%;
+    padding: 65px;
+  }
+
+  &__rightCol {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 33%;
+    height: 100%;
+    background: #634cd9 linear-gradient(-55deg, #5193ff 0%, #5193ff 1%, #7309b4 82%, #7309b4 100%);
+  }
+
+  &__imgWrapper {
+    margin-top: -110px;
+    margin-bottom: -90px;
+    margin-left: -68%;
+    height: 150%;
+    background: url("static/dashboardXL.png") 0 0 no-repeat;
+  }
+}
+
+.article {
+  display: none;
+
+  &--active {
+    display: block;
+  }
+
+  &__title {
+    font: 300 67px / 1em 'realistnarrow';
+    color: #332f36;
+    margin: 23px 150px 14px 0;
+  }
+
+  &__par {
+    max-width: 420px;
+    margin-bottom: 20px;
+  }
+
+  &__btn {
+    font-size: 16px;
+    padding: 13px 35px;
+    border: 2px solid #332f36;
+    background-color: #fff;
+
+    cursor: pointer;
+    transition: 0.2s all;
+    will-change: background;
+
+    &:hover {
+      background: rgba(19, 229, 212, 1);
+    }
+  }
+}
+
+.list--articles {
+  padding: 65px 0 5px;
+
+  & .listItem{
+    display: inline-block;
+    width: 130px;
+    padding: 10px;
+
+    color: #8d8d8d;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+
+    border-bottom: 2px solid #d7d7d7;
+
+    &--active {
+      border-color: #332f36;
+      color: #332f36;
+    }
+  }
+}
+
+// e/o main section
