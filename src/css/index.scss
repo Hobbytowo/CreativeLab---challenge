@@ -215,10 +215,11 @@ body {
 
     cursor: pointer;
     transition: 0.2s all;
-    will-change: background;
 
     &:hover {
-      background: #c374ff;
+      background-color: #fff;
+      color: #000;
+      box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08), 0 4px 0 rgba(0, 0, 0, 0.08);
     }
   }
 }
@@ -263,10 +264,6 @@ body {
     &__btn {
       padding: 16px 21px;
       margin-left: 17px;
-
-      &:hover {
-        background: #e596ff;
-      }
     }
   }
 }
