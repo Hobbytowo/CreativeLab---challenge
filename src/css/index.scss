@@ -44,8 +44,16 @@ body {
 
   color: #fff;
   background:
-    url("static/womanXL.png") 425px 20px no-repeat,
-    url("static/visualizationXL.png") 600px 90px no-repeat,
+    url("static/womanXL.png") 29vw 20px no-repeat,
+    url("static/visualizationXL.png") 41vw 90px no-repeat,
+    url("static/headerElements/XL/elem-color-ellipseBig.png") 4.5vw 635px no-repeat,
+    url("static/headerElements/XL/elem-color-ellipseSm.png") 29vw -40px no-repeat,
+    url("static/headerElements/XL/elem-color-rhomb.png") 40vw 520px no-repeat,
+    url("static/headerElements/XL/elem-color-rhomb.png") 75vw 260px no-repeat,
+    url("static/headerElements/XL/elem-color-triangle.png") 59vw 130px no-repeat,
+    url("static/headerElements/XL/elem-white-backslash.png") 93vw 595px no-repeat,
+    url("static/headerElements/XL/elem-white-rect.png") 51vw 35px no-repeat,
+    url("static/headerElements/XL/elem-white-x.png") 94vw 135px no-repeat,
     #c7d2da linear-gradient(-55deg, #aabdd1 0%, #c276ff 82%, #c276ff 100%);
 
   &__content {
@@ -82,8 +90,16 @@ body {
   .header {
     height: 585px;
     background:
-      url("static/womanL.png") 330px 20px no-repeat,
-      url("static/visualizationL.png") 485px 90px no-repeat,
+      url("static/womanL.png") 28vw 20px no-repeat,
+      url("static/visualizationL.png") 41.5vw 90px no-repeat,
+      url("static/headerElements/L/elem-color-ellipseBig.png") 5.5vw 522px no-repeat,
+      url("static/headerElements/L/elem-color-ellipseSm.png") 31.5vw -0 no-repeat,
+      url("static/headerElements/L/elem-color-rhomb.png") 42vw 390px no-repeat,
+      url("static/headerElements/L/elem-color-rhomb.png") 75vw 200px no-repeat,
+      url("static/headerElements/L/elem-color-triangle.png") 60vw 100px no-repeat,
+      url("static/headerElements/L/elem-white-backslash.png") 92vw 450px no-repeat,
+      url("static/headerElements/L/elem-white-rect.png") 52vw 25px no-repeat,
+      url("static/headerElements/L/elem-white-x.png") 100% 90px no-repeat,
       #c7d2da linear-gradient(-55deg, #aabdd1 0%, #c276ff 82%, #c276ff 100%);
 
     &__content {
@@ -113,6 +129,14 @@ body {
     background:
       url("static/womanM.png") 31vw 20px no-repeat,
       url("static/visualizationM.png") 42vw 80px no-repeat,
+      url("static/headerElements/M/elem-color-ellipseBig.png") 6.5vw 426px no-repeat,
+      url("static/headerElements/M/elem-color-ellipseSm.png") 32.3vw -30px no-repeat,
+      url("static/headerElements/M/elem-color-rhomb.png") 42.5vw 314px no-repeat,
+      url("static/headerElements/M/elem-color-rhomb.png") 75vw 157px no-repeat,
+      url("static/headerElements/M/elem-color-triangle.png") 60vw 80px no-repeat,
+      url("static/headerElements/M/elem-white-backslash.png") 92.5vw 367px no-repeat,
+      url("static/headerElements/M/elem-white-rect.png") 53vw 18px no-repeat,
+      url("static/headerElements/M/elem-white-x.png") calc(100% + 60px) 70px no-repeat,
       #c7d2da linear-gradient(-55deg, #aabdd1 0%, #c276ff 82%, #c276ff 100%);
 
     &__content {
@@ -141,6 +165,9 @@ body {
     background:
       url("static/womanS.png") 20px 620px no-repeat,
       url("static/visualizationS.png") -70px 415px no-repeat,
+      url("static/headerElements/S/elem-color-ellipse.png") -53px 102px no-repeat,
+      url("static/headerElements/S/elem-color-rhomb.png") 0 608px no-repeat,
+      url("static/headerElements/S/elem-color-triangle.png") 100% 125px no-repeat,
       #c7d2da linear-gradient(-55deg, #aabdd1 0%, #c276ff 82%, #c276ff 100%);
 
     &__content {
